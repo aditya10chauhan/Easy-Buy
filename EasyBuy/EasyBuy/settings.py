@@ -56,7 +56,7 @@ ROOT_URLCONF = 'EasyBuy.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['EasyBuy/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
